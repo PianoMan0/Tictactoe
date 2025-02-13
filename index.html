@@ -27,13 +27,13 @@
   // Initialize the board as a 2D array of empty strings
   var board = [["", "", ""], ["", "", ""], ["", "", ""]];
 
-  // Initialize the turn as "X"
+  // Initialize the turn as X
   var turn = "X";
 
   // Initialize the game over flag as false
   var gameOver = false;
 
-  // This function is called when a cell is clicked
+  // Call this function when the cell is clicked
   function cellClicked(row, col) {
     // If the game is over or the cell is not empty, do nothing
     if (gameOver || board[row][col] != "") {
@@ -66,7 +66,7 @@
     }
   }
 
-  // This function makes the computer move
+  // Make the computer move :)
   function computerMove() {
     // Find all the empty cells
     var emptyCells = [];
